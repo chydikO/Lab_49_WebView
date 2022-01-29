@@ -10,10 +10,7 @@ class MyWebViewClient : WebViewClient()  {
         var hostname: String
 
         // YOUR HOSTNAME
-        hostname = "example.com"
-
-        // YOUR HOSTNAME
-        hostname = "example.com"
+        hostname = "https://censor.net"
 
         val uri = Uri.parse(url)
         if (url!!.startsWith("file:") || uri.host != null && uri.host!!.endsWith(hostname)) {

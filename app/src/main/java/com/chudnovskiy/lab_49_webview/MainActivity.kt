@@ -4,6 +4,9 @@ import android.os.Bundle
 import android.webkit.WebView
 import androidx.appcompat.app.AppCompatActivity
 
+/**
+ * https://github.com/slymax/webview
+ */
 class MainActivity : AppCompatActivity() {
     private var mWebView: WebView? = null
 
